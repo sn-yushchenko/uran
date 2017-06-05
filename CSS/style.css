@@ -1,0 +1,243 @@
+
+header {
+    width:100%;
+    border:2px solid #F4F4F4;
+}
+
+#wrapper {
+    width:1000px;
+    background-color: #FFFFFF;
+    margin:0 auto;
+    padding:20px 20px;
+    
+}
+
+body {
+    background-color: #4D4D4D;
+}
+
+.listMenu {
+    list-style: none;
+    margin:0px;
+    padding:0px 15px;
+}
+#menu li{
+    font-size: 20px;
+    height:30px;
+    display:inline-block;
+    margin-right: 10px;
+    padding: 8px 10px;
+/*    font-family:Courier New, monospace;*/
+    padding-top:10px;
+    margin-left:-15px;
+    
+}
+
+#line {
+    width:100%;
+    height:5px;
+    background-color: #3AE2CE;
+}
+
+#text {
+    margin-top: 30px;
+    font-size: 60px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    text-align: center;
+    color:#FF00AE;
+}
+#menu {
+    margin-top: 50px;
+    background-color: #4D4D4D;
+    
+}
+#menu li:hover{
+    background-color:#3AE2CE;
+    cursor: pointer;
+}
+
+span {
+    color:blue;
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 0.5em; /* Отступ сверху */
+    margin-bottom: 0.5em;
+}
+
+footer {
+    border:2px solid #F4F4F4;
+    padding:20px;
+    margin-top:20px;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+#main {
+    border:2px solid #F4F4F4;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.field {
+    text-align: right;
+    margin-bottom: 10px;
+    line-height:25px;
+}
+
+label {
+    float:left;
+    padding-right: 10px;
+}
+
+.main {
+    float:left;
+    padding: 20px;
+}
+
+
+
+input {
+    width:200px;
+    padding-left: 5px;
+}
+
+#type,#category {
+    width: 210px;
+    height: 20px;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#description {
+    width: 100%;
+    resize: none;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#file {
+    width: 100%;
+    padding: 0px;
+}
+
+#submit {
+    width:100%;
+}
+table{
+    border: 1px solid #F4F4F4;
+     border-collapse:collapse;
+}
+#view td{
+    border: 1px solid #F4F4F4;
+    width: 200px;
+    padding-left:5px;
+    
+}
+#view th{
+    border: 1px solid #F4F4F4;
+    width: 200px;
+    text-align: center;
+   
+}
+
+#search {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+}
+
+#searchBut {
+    border-radius: 5px;
+    cursor:pointer;
+}
+#searchBut:hover{
+    cursor:pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.photo {
+    width: 100px;
+    height:100px;
+    float: left;
+}
+
+.descr {
+    float: left;
+    margin-left: 30px;
+}
+
+.descrDescr {
+    margin-top: 10px;
+}
+
+.descrName {
+    font-size:20px;
+}
+#response li{
+    margin-bottom: 15px;
+}
+#response ul{
+    list-style: none;
+}
+
+
+.nameEdit {
+    width:150px;
+    border:none;
+}
+
+.valEditId {
+    width:20px;
+}
+
+#edit {
+    margin-bottom: 20px;
+}
+
+.editType, .editCategory{
+    width:150px;
+    height:22px;
+    border:none;
+}
+
+.desEdit {
+    border:none;
+    width:300px;
+}
+#edit th{
+    border:1px solid grey;
+}
+#edit table{
+    border:1px solid grey;
+    border-collapse: collapse;
+}
+#edit td{
+    border:1px solid grey;
+    font-size: 15px
+}
+.butEdit:hover,.remEdit:hover{
+    cursor: pointer;
+}
+#edit a{
+    color:blue;
+}
+#res {
+    text-align: center;
+    color:blue;
+    font-size: 30px;
+    margin-top: 120px;
+}
+
+.showImage {
+    color:blue;
+    text-decoration: underline;
+}
